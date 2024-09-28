@@ -533,7 +533,10 @@ figcaption {
   background-image: url('../images/027A0573.JPG');
   background-size: cover;
 }
-
+.work-image.cc-work-5 {
+  background-image: url('../images/PreviewRQW.png');
+  background-size: cover;
+}
 .project-name-link {
   text-transform: uppercase;
   margin-bottom: 5px;
@@ -2520,4 +2523,26 @@ figcaption {
   font-weight: 400;
   font-style: normal;
   font-display: swap;
+}
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 20%;
+  font-size: 24px;
+}
+
+#typing-text {
+  display: inline-block;
+}
+
+.cursor {
+  display: inline-block;
+  animation: blink 0.7s step-end infinite;
+  font-weight: bold;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0; /* Make cursor invisible at halfway point */
+  }
 }
