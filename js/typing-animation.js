@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-  const text = "Greetings, traveler! Your quest for inspiration begins here!"; // Text to type
+  const text = "Greetings, traveler. Your quest for inspiration begins here!"; // Text to type
   let index = 0; // Initial index
   const speed = 100; // Typing speed in milliseconds
   const typingTextElement = document.getElementById("text");
