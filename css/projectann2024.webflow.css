@@ -2524,12 +2524,7 @@ figcaption {
   font-style: normal;
   font-display: swap;
 }
-body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  margin-top: 20%;
-  font-size: 24px;
-}
+
 
 #typing-text {
   display: inline-block;
