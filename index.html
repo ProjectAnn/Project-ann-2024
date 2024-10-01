@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html data-wf-page="61a5c8fa5f1c450171235c8b" data-wf-site="61a5c8f95f1c45074b235c87">
 <head>
+  <script>
+    if (localStorage.getItem('authenticated') !== 'true') {
+        window.location.href = 'password.html';  // Redirect to the password page if not authenticated
+    }
+</script>
   <meta charset="utf-8">
   <title>Home</title>
  </style>
